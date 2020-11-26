@@ -154,6 +154,10 @@ header {
 .logo{
 	max-width: 100px;
 
+
+
+
+
 }
 
 .nav{
@@ -269,6 +273,9 @@ header {
 	display: inline-block;
 }
 
+.section__subtitle__item{
+	display: flex;
+}
 @media (min-width: 600px){
 	.intro {
 		display:grid;
@@ -292,13 +299,25 @@ header {
 	}
 
 	.section__subtitle--intro{
+		display:flex ;
+		padding: 10px 30px;
 		align-self: start;
 		grid-column: -1/1;
 		grid-row: 2;
-		text-align:right;
+		
 		position:relative;
 		left: -1.5em;
 		width:calc(100% 1.5em);
+	}
+
+	.section__subtitle__item{
+		margin: 0 3em;
+	}
+
+
+	.section__subtitle-list__link {
+		padding: 2em;
+		font-size: var(--fs-h3)
 	}
 
 
