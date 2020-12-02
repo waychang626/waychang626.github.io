@@ -133,6 +133,7 @@ h3{ font-size:var(--fs-h3); }
 	padding: .25em 1em;
 	font-family: var(--ff-secondary);
 	margin-bottom: 0.2em;
+	text-align:right;
 }
 
 
@@ -299,8 +300,7 @@ header {
 	}
 
 	.section__subtitle--intro{
-		display:flex ;
-		padding: 10px 30px;
+
 		align-self: start;
 		grid-column: -1/1;
 		grid-row: 2;
@@ -308,6 +308,7 @@ header {
 		position:relative;
 		left: -1.5em;
 		width:calc(100% 1.5em);
+		text-align:right;
 	}
 
 	.section__subtitle__item{
