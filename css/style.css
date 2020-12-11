@@ -91,6 +91,16 @@ strong {font-weight: var(--fw-bold)}
 	transform: scale(1.1);
 }
 
+
+img.resize{
+	max-width:80%;
+  	max-height:80%;
+  	margin-left: auto;
+  	margin-right: auto
+}
+
+
+
 /* Typography */
 h1,
 h2,
@@ -121,6 +131,7 @@ h3{ font-size:var(--fs-h3); }
 
 
 .section__subtitle{
+
 	margin:0;
 	font-size: var(--fs-h3);
 
@@ -308,16 +319,17 @@ header {
 		position:relative;
 		left: -1.5em;
 		width:calc(100% 1.5em);
-		text-align:right;
+		text-align:center;
 	}
 
 	.section__subtitle__item{
 		margin: 0 3em;
+
 	}
 
 
 	.section__subtitle-list__link {
-		padding: 2em;
+		padding: 0.2em;
 		font-size: var(--fs-h3)
 	}
 
