@@ -91,6 +91,9 @@ strong {font-weight: var(--fw-bold)}
 	transform: scale(1.1);
 }
 
+.caption{
+	text-align: center;
+}
 
 img.resize{
 	max-width:80%;
@@ -99,7 +102,12 @@ img.resize{
   	margin-right: auto
 }
 
-
+img.resize1{
+	max-width:65%;
+  	max-height:65%;
+  	margin-left: auto;
+  	margin-right: auto
+}
 
 /* Typography */
 h1,
